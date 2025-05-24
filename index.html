@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nate's Studio - Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            padding: 0.5rem 2rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #222;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+        ul.menu-list {
+            list-style: none;
+            padding: 0;
+        }
+        ul.menu-list li {
+            padding: 1rem 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        ul.menu-list li:last-child {
+            border-bottom: none;
+        }
+        .item-name {
+            font-weight: bold;
+        }
+        .item-price {
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nate's Studio - Music Shop Menu</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Instruments</a>
+        <a href="#">Lessons</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <h2>Our Menu</h2>
+        <ul class="menu-list">
+            <li>
+                <span class="item-name">Guitar Strings</span>
+                <span class="item-price">$10.00</span>
+            </li>
+            <li>
+                <span class="item-name">Drum Sticks</span>
+                <span class="item-price">$8.00</span>
+            </li>
+            <li>
+                <span class="item-name">Piano Sheet Music</span>
+                <span class="item-price">$12.00</span>
+            </li>
+            <li>
+                <span class="item-name">Instrument Cleaning Kit</span>
+                <span class="item-price">$15.00</span>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
